@@ -1,0 +1,32 @@
+{
+  "vendor": "Qwen",
+  "model": "qwen/qwen3.8-27b",
+  "timestamp": "2026-10-15T17:50:40.371010",
+  "attempts": [
+    {
+      "attempt": 1,
+      "api_time_s": 1.56,
+      "tier_reached": 1,
+      "tlc_success": false,
+      "tlc_error": "TLC2 Version 2026.10.13.164326 (rev: 210df3a)\nWarning: Please run the Java VM, which executes TLC with a throughput optimized garbage collector, by passing the \"-XX:+UseParallelGC\" property.\n(Use the -nowarning option to disable this warning.)\nRunning breadth-first search Model-Checking with fp 116 and seed 7448819730104551300 with 1 worker on 2 cores with 1986MB heap and 64MB offheap memory [pid: 15534] (Linux 6.8.0-1064-azure amd64, Microsoft 25.0.4.1 64bit, MSBDiskFPSet, DiskStateQueue).\nPars"
+    },
+    {
+      "attempt": 2,
+      "api_time_s": 2.95,
+      "tier_reached": 0,
+      "tlc_success": false,
+      "tlc_error": "TLC2 Version 2026.10.13.164326 (rev: 210df3a)\nWarning: Please run the Java VM, which executes TLC with a throughput optimized garbage collector, by passing the \"-XX:+UseParallelGC\" property.\n(Use the -nowarning option to disable this warning.)\nRunning breadth-first search Model-Checking with fp 91 and seed -5952827633846423159 with 1 worker on 2 cores with 1986MB heap and 64MB offheap memory [pid: 15595] (Linux 6.8.0-1064-azure amd64, Microsoft 25.0.4.1 64bit, MSBDiskFPSet, DiskStateQueue).\nPars"
+    },
+    {
+      "attempt": 3,
+      "api_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kt4hazatff6a72hs7fkfp9dd` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 992, Requested 10. Please try again in 120ms. Need more tokens? Upgrade to Dev Tier today at https://con"
+    },
+    {
+      "attempt": 4,
+      "api_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kt4hazatff6a72hs7fkfp9dd` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 941, Requested 178. Please try again in 7.14s. Need more tokens? Upgrade to Dev Tier today at https://co"
+    }
+  ],
+  "final_success": false,
+  "rounds_needed": null,
+  "tier_reached": 1
+}

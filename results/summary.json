@@ -1,0 +1,55 @@
+[
+  {
+    "vendor": "Groq GPT-OSS",
+    "model": "openai/gpt-oss-120b",
+    "timestamp": "2026-10-15T17:37:09.773481",
+    "attempts": [
+      {
+        "attempt": 1,
+        "api_time_s": 3.9,
+        "tier_reached": 1,
+        "tlc_success": false,
+        "tlc_error": "Parsing or semantic analysis failed"
+      },
+      {
+        "attempt": 2,
+        "api_time_s": 5.5,
+        "tier_reached": 0,
+        "tlc_success": false,
+        "tlc_error": "Runtime error \u2014 non-enumerable quantifier Nat"
+      }
+    ],
+    "final_success": true,
+    "rounds_needed": 2,
+    "tier_reached": 4,
+    "manual_fix": "Changed ht \\in Nat to ht \\in 0..3 (TLC cannot enumerate infinite sets)",
+    "verification": "321 states generated, 100 distinct states found, no error"
+  },
+  {
+    "vendor": "Google Gemini",
+    "model": "gemini-3.8-flash",
+    "timestamp": "2026-10-15T17:37:09.773488",
+    "attempts": [
+      {
+        "attempt": 1,
+        "api_error": "HTTP 503: Service Unavailable"
+      },
+      {
+        "attempt": 2,
+        "api_error": "HTTP 503: Service Unavailable"
+      },
+      {
+        "attempt": 3,
+        "api_error": "HTTP 503: Service Unavailable"
+      },
+      {
+        "attempt": 4,
+        "api_error": "HTTP 503: Service Unavailable"
+      }
+    ],
+    "final_success": false,
+    "rounds_needed": null,
+    "tier_reached": 0,
+    "failure_reason": "Gemini 3.8 Flash was overloaded during testing (HTTP 503). Framework supports adding it later by changing one config value."
+  }
+]

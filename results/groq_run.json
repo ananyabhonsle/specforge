@@ -1,0 +1,38 @@
+{
+  "vendor": "Groq GPT-OSS",
+  "model": "openai/gpt-oss-120b",
+  "timestamp": "2026-10-15T15:58:56.973008",
+  "attempts": [
+    {
+      "attempt": 1,
+      "api_time_s": 3.85,
+      "tier_reached": 1,
+      "tlc_success": false,
+      "tlc_error": "on to disable this warning.)\nRunning breadth-first search Model-Checking with fp 3 and seed 5777121821430214072 with 1 worker on 2 cores with 1986MB heap and 64MB offheap memory [pid: 32976] (Linux 6.8.0-1064-azure amd64, Microsoft 25.0.4.1 64bit, MSBDiskFPSet, DiskStateQueue).\nParsing file /workspaces/specforge/raft.tla/raft_llm.tla\nParsing file /tmp/tlc-15569181063746408464/Naturals.tla (jar:file:/workspaces/specforge/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)\nParsing file /tmp/tlc-"
+    },
+    {
+      "attempt": 2,
+      "api_time_s": 5.49,
+      "tier_reached": 0,
+      "tlc_success": false,
+      "tlc_error": "les/TLC.tla)\nParsing file /tmp/tlc-5781022251949921112/TLCExt.tla (jar:file:/workspaces/specforge/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)\nParsing file /tmp/tlc-5781022251949921112/Integers.tla (jar:file:/workspaces/specforge/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)\nSemantic processing of module Naturals\nSemantic processing of module Sequences\nSemantic processing of module FiniteSets\nSemantic processing of module TLC\nSemantic processing of module Integers\nSemantic process"
+    },
+    {
+      "attempt": 3,
+      "api_time_s": 5.25,
+      "tier_reached": 0,
+      "tlc_success": false,
+      "tlc_error": "which executes TLC with a throughput optimized garbage collector, by passing the \"-XX:+UseParallelGC\" property.\n(Use the -nowarning option to disable this warning.)\nRunning breadth-first search Model-Checking with fp 33 and seed -9199963792818530093 with 1 worker on 2 cores with 1986MB heap and 64MB offheap memory [pid: 33168] (Linux 6.8.0-1064-azure amd64, Microsoft 25.0.4.1 64bit, MSBDiskFPSet, DiskStateQueue).\nParsing file /workspaces/specforge/raft.tla/raft_llm.tla\nParsing file /tmp/tlc-1822"
+    },
+    {
+      "attempt": 4,
+      "api_time_s": 4.59,
+      "tier_reached": 0,
+      "tlc_success": false,
+      "tlc_error": "les/TLC.tla)\nParsing file /tmp/tlc-7590748982314974999/TLCExt.tla (jar:file:/workspaces/specforge/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)\nParsing file /tmp/tlc-7590748982314974999/Integers.tla (jar:file:/workspaces/specforge/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)\nSemantic processing of module Naturals\nSemantic processing of module Sequences\nSemantic processing of module FiniteSets\nSemantic processing of module TLC\nSemantic processing of module Integers\nSemantic process"
+    }
+  ],
+  "final_success": false,
+  "rounds_needed": null,
+  "tier_reached": 1
+}

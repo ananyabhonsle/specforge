@@ -1,0 +1,26 @@
+{
+  "vendor": "Google Gemini",
+  "model": "gemini-3.8-flash",
+  "timestamp": "2026-10-15T15:59:20.138503",
+  "attempts": [
+    {
+      "attempt": 1,
+      "api_error": "The read operation timed out"
+    },
+    {
+      "attempt": 2,
+      "api_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "attempt": 3,
+      "api_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "attempt": 4,
+      "api_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    }
+  ],
+  "final_success": false,
+  "rounds_needed": null,
+  "tier_reached": 0
+}

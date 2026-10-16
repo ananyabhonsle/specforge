@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+*.log
+states/
+tlc_run_*.log
+*_TTrace_*.bin
+*_TTrace_*.tla
+.DS_Store
